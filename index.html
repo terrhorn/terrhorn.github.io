@@ -85,11 +85,19 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-		$("a").click(function(){
+		var trackPageView = function() {
+		    var page_view = {
+		        title: "Home"
+		    };
+		    Keen.addEvent("page_views", page_view);
+		};
+		trackPageView();
+		
+		$("a").click(function() {
 		    Keen.trackExternalLink(this, "external_link_click", {
 				"title": $(this).text(),
 				"href": encodeURIComponent($(this).attr("href"))
-			},0,function(){
+			},0,function() {
 				return false;
 			});
 		});
