@@ -10,14 +10,15 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<script type="text/javascript">
-	    var Keen=Keen||{configure:function(e){this._cf=e},addEvent:function(e,t,n,i){this._eq=this._eq||[],this._eq.push([e,t,n,i])},setGlobalProperties:function(e){this._gp=e},onChartsReady:function(e){this._ocrq=this._ocrq||[],this._ocrq.push(e)}};(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://":"http://")+"dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
-	    window.Keen = Keen;
-		Keen.configure({
-	        projectId: "537368f000111c3e24000006",
-	        writeKey: "00610c46506ef3fe1545bfcdee6ff872831dd1a46d08b8b882758e3cea84cf865d48dd9c35d53c1641f49885399d37ce05defa692302396dfdd81d33cbf474e7acdff43b0ca88b57750952fb612701f3d0722479779d237322ea5da7ed7eeddfbefc0732ecc7b61d7e3dbeb44283cca9"
-	    });
-	</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://d26b395fwzu5fz.cloudfront.net/latest/keen.min.js"></script>
+		<script type="text/javascript">
+			var client = new Keen({
+				projectId: "537368f000111c3e24000006",
+				writeKey: "00610c46506ef3fe1545bfcdee6ff872831dd1a46d08b8b882758e3cea84cf865d48dd9c35d53c1641f49885399d37ce05defa692302396dfdd81d33cbf474e7acdff43b0ca88b57750952fb612701f3d0722479779d237322ea5da7ed7eeddfbefc0732ecc7b61d7e3dbeb44283cca9"
+			});
+		</script>
   </head>
   <body>
 	<div class="row">
@@ -76,8 +77,6 @@
 	  ga('send', 'pageview');
 
 	</script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		var trackPageView = function() {
 		    var page_view = {
@@ -86,15 +85,6 @@
 		    Keen.addEvent("page_views", page_view);
 		};
 		trackPageView();
-		
-		$("a").click(function() {
-		    Keen.trackExternalLink(this, "external_link_click", {
-				"title": $(this).text(),
-				"href": encodeURIComponent($(this).attr("href"))
-			},0,function() {
-				return false;
-			});
-		});
 	</script>
   </body>
 </html>
