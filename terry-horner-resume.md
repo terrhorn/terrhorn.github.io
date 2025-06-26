@@ -1,6 +1,3 @@
-<!-- terry-horner-resume.html --> 
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
-
 # TERRY HORNER
 **Staff Engineering Manager | Technical Leader | Infrastructure Expert**
 
