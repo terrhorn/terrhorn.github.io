@@ -38,7 +38,7 @@ Senior engineering leader with 20+ years of experience building world-class dist
 - Implemented engineering best practices across the organization
 
 **Senior Engineering Manager, Head of Storage Engineering** | *February 2020 – September 2020*
-- Managed GitHub's core storage infrastructure team responsible for Database Infrastructure, Data Pipelines, Data Infrastructure, and Search Infrastructure
+- Managed GitHub's core storage infrastructure teams responsible for Database Infrastructure, Data Pipelines, Data Infrastructure, and Search Infrastructure
 - Oversaw storage systems supporting 250M+ repositories with 99.95% uptime SLA
 - Led incident response and post-mortem processes for critical infrastructure events
 
@@ -93,7 +93,7 @@ Kent State University | *1995 – 1999*
 ## ADDITIONAL EXPERIENCE
 
 **Mentor, The Iron Yard** | *2013 – 2016*  
-Mentored software development bootcamp students in full-stack web development and career transition
+Mentored accelerator startups in business and technical excellence
 
 **CTO, ChartSpan Medical Technologies** | *2013 – 2014*  
 Led technical strategy for healthcare technology startup focused on medical records management
@@ -103,7 +103,7 @@ Led technical strategy for healthcare technology startup focused on medical reco
 **Endurance Athletics & Goal Achievement**
 - Completed Race Across America (2,900+ miles) in 6 days, 18 hours, 33 minutes with 8-person team to raise money for Akron Children's Hospital
 - Completed Race Across the West (928 miles) in 66 hours, 18 minutes to raise money for the LeBron James Family Foundation
-- Finished American Triple-T (ultra-distance triathlon) three times, and Ironman 70.3 thirteen times, demonstrating sustained mental fortitude
+- Finished American Triple-T (ultra-distance triathlon) three times, and Ironman 70.3 thirteen times
 
 **Leadership Philosophy & Approach**
 - **Servant Leadership**: "Leading from the trenches" approach with hands-on technical involvement and team development focus
