@@ -1,0 +1,15 @@
+# Terry Horner
+
+> Engineering leader with 20+ years building search infrastructure, distributed
+> systems, and high-performing teams. Built the search and retrieval systems at
+> GitHub powering Code Search and Copilot.
+
+- [About](https://terrhorn.github.io/): Career overview, background, and links
+- [Resume](https://terrhorn.github.io/resume/): Professional history, skills, and experience
+- [User Manual](https://terrhorn.github.io/user-manual.html): How I work, communication style, and leadership approach
+
+## Elsewhere
+
+- [GitHub](https://github.com/terrhorn)
+- [LinkedIn](https://linkedin.com/in/terryhorner)
+- [Twitter](https://twitter.com/terrhorn)

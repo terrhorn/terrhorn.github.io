@@ -3,6 +3,7 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 RESUME_DIR="$REPO_ROOT/resume"
+BUILD_DATE=$(date -u +"%Y-%m-%d")
 
 SHARED_CSS='
     body {
@@ -72,11 +73,36 @@ cat > "$INDEX_OUTPUT" << HTMLEOF
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Terry Horner — engineering leader with 20+ years building search infrastructure, distributed systems, and startups. Built GitHub Code Search and Copilot's retrieval systems.">
   <title>Terry Horner: tl;dr</title>
   <style>$SHARED_CSS</style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Terry Horner",
+      "jobTitle": "Staff Engineering Manager",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "GitHub"
+      },
+      "url": "https://terrhorn.github.io/",
+      "sameAs": [
+        "https://github.com/terrhorn",
+        "https://linkedin.com/in/terryhorner",
+        "https://twitter.com/terrhorn"
+      ],
+      "knowsAbout": ["search infrastructure", "distributed systems", "AI infrastructure", "engineering leadership", "RAG systems"]
+    }
+  }
+  </script>
 </head>
 <body>
+  <main>
 $INDEX_BODY
+  </main>
 $EXTERNAL_LINKS_SCRIPT
 </body>
 </html>
@@ -103,14 +129,17 @@ cat > "$MANUAL_OUTPUT" << HTMLEOF
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Terry Horner's user manual — how he works, communication preferences, strengths, quirks, and leadership approach.">
   <title>Terry Horner: User Manual</title>
   <style>$SHARED_CSS</style>
 </head>
 <body>
-  <div class="nav-bar">
+  <nav class="nav-bar">
     <a href="index.html">&larr; About Me</a>
-  </div>
+  </nav>
+  <main>
 $MANUAL_BODY
+  </main>
 $EXTERNAL_LINKS_SCRIPT
 </body>
 </html>
@@ -145,15 +174,18 @@ cat > "$RESUME_HTML" << HTMLEOF
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Terry Horner's resume — Staff Engineering Manager at GitHub, built Code Search serving 100M+ developers, 20+ years in distributed systems and engineering leadership.">
   <title>Terry Horner — Resume</title>
   <style>$SHARED_CSS</style>
 </head>
 <body>
-  <div class="nav-bar">
+  <nav class="nav-bar">
     <a href="../index.html">&larr; About Me</a>
     <a class="btn" href="terry-horner-resume.pdf" download>Download PDF</a>
-  </div>
+  </nav>
+  <main>
 $RESUME_BODY
+  </main>
 $EXTERNAL_LINKS_SCRIPT
 </body>
 </html>
@@ -161,3 +193,86 @@ HTMLEOF
 
 echo "Done → $RESUME_HTML"
 echo "Done → $RESUME_PDF"
+
+# --- Generate llms.txt ---
+
+echo "Generating llms.txt..."
+cat > "$REPO_ROOT/llms.txt" << 'LLMSEOF'
+# Terry Horner
+
+> Engineering leader with 20+ years building search infrastructure, distributed
+> systems, and high-performing teams. Built the search and retrieval systems at
+> GitHub powering Code Search and Copilot.
+
+- [About](https://terrhorn.github.io/): Career overview, background, and links
+- [Resume](https://terrhorn.github.io/resume/): Professional history, skills, and experience
+- [User Manual](https://terrhorn.github.io/user-manual.html): How I work, communication style, and leadership approach
+
+## Elsewhere
+
+- [GitHub](https://github.com/terrhorn)
+- [LinkedIn](https://linkedin.com/in/terryhorner)
+- [Twitter](https://twitter.com/terrhorn)
+LLMSEOF
+
+echo "Done → $REPO_ROOT/llms.txt"
+
+# --- Generate llms-full.txt ---
+
+echo "Generating llms-full.txt..."
+{
+  cat "$REPO_ROOT/index.md"
+  echo ""
+  echo "---"
+  echo ""
+  cat "$REPO_ROOT/user-manual.md"
+  echo ""
+  echo "---"
+  echo ""
+  cat "$RESUME_INPUT"
+} > "$REPO_ROOT/llms-full.txt"
+
+echo "Done → $REPO_ROOT/llms-full.txt"
+
+# --- Generate robots.txt ---
+
+echo "Generating robots.txt..."
+cat > "$REPO_ROOT/robots.txt" << 'ROBOTSEOF'
+User-agent: *
+Allow: /
+
+Sitemap: https://terrhorn.github.io/sitemap.xml
+ROBOTSEOF
+
+echo "Done → $REPO_ROOT/robots.txt"
+
+# --- Generate sitemap.xml ---
+
+echo "Generating sitemap.xml..."
+cat > "$REPO_ROOT/sitemap.xml" << SITEMAPEOF
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://terrhorn.github.io/</loc>
+    <lastmod>$BUILD_DATE</lastmod>
+  </url>
+  <url>
+    <loc>https://terrhorn.github.io/resume/</loc>
+    <lastmod>$BUILD_DATE</lastmod>
+  </url>
+  <url>
+    <loc>https://terrhorn.github.io/user-manual.html</loc>
+    <lastmod>$BUILD_DATE</lastmod>
+  </url>
+  <url>
+    <loc>https://terrhorn.github.io/llms.txt</loc>
+    <lastmod>$BUILD_DATE</lastmod>
+  </url>
+  <url>
+    <loc>https://terrhorn.github.io/llms-full.txt</loc>
+    <lastmod>$BUILD_DATE</lastmod>
+  </url>
+</urlset>
+SITEMAPEOF
+
+echo "Done → $REPO_ROOT/sitemap.xml"
