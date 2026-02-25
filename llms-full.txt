@@ -1,0 +1,296 @@
+# Startups, code, and some other stuff too.
+
+## `tl;dr`
+
+## Strengths
+
+Futuristic - Restorative - Learner - Achiever - Strategic
+
+These aren't made up. [Find your strengths](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx).
+
+## Early Days
+
+[Kent State University](https://www.kent.edu) alumnus.
+
+Senior Developer at New Media Communications. Lead Developer for Bush for President (2000), Bloomberg for Mayor (2001), the Republican National Committee, and numerous other GOP candidates and organizations. Don't read too much into the politics; there are so many reasons I'm not in that world anymore.
+
+Consultant at E-merging Technologies Group. Met my mentor, worked with great people, had a blast doing so. You can say they prepared me for what was next. Speaking of...
+
+## Startups
+
+Founded BlueEye Systems (CEO). Co-Founded [Horner Networks](https://hornernetworks.com) (CTO) and SendReceive (CTO). All bootstrapped. All profitable. Horner Networks and SendReceive are still in operation to this day.
+
+Co-Founded Spent (CEO/CTO). Got accepted into the inaugural class of The Iron Yard accelerator. Raised an angel round. Rebranded as Relify and pivoted into the awesome world of machine learning. Failed. Learned. Got stronger.
+
+Joined [ChartSpan](https://www.chartspan.com/) (CTO). Engineered an awesome vision. Worked with awesome people. Ran into an instance of incompatibility and decided to move on.
+
+Joined [Keen IO](https://keen.io/). Spent time in both Data Science and Software Engineering before being promoted to VP of Engineering. Worked with some of the most amazing people I've ever met. Became a better human. Led the team through [acquisition](https://techcrunch.com/2017/12/23/scaleworks-announces-pre-holiday-surprise-with-keen-io-acquisition/) before deciding it was time to say goodbye.
+
+Joined [GitHub](https://github.com/) for the opportunity to build and lead a team focused on the infrastructure side of GitHub's unique data challenges. Co-founded the Blackbird (Code Search) team, grew it to 15+ engineers, and built the search infrastructure that now powers both GitHub.com and GitHub Copilot. Turns out all those years obsessing over search technology were leading somewhere.
+
+## Code
+
+Java hacker since college. Lived too many years in the world of ASP, C#, ASP.NET and SQL Server. Escaped. Is it ironic that I ended up working with the very people who designed and built all of these things after Microsoft acquired GitHub? /shrug
+
+Fell in love with Ruby, Scala and Objective-C. Found my love of programming again. Picked up Python along the way. You know, because data.
+
+Have been working with cloud technologies since they hit the interwebs. AWS and I know each other well. Said hello to Azure and Google Cloud along the way, too.
+
+Dove into the world of open source head first. Became obsessed with Lucene, OpenNLP, Solr, Hadoop and just about every other open source big data/search technology.
+
+Got the itch to hack on some cryptographic libraries, OpenPGP and BouncyCastle in particular. Thanks [Ed](http://en.wikipedia.org/wiki/Edward_Snowden).
+
+Currently diving into Rust while not so quietly wondering where this awesome language has been all my life.
+
+Led the team that built the world's largest code search engine from scratch. Not on top of Lucene, not on top of Elasticsearch, from scratch. Novel indexing, novel retrieval, at a scale that didn't have a playbook. That obsession with search technology turned into the thing I'm most proud of building.
+
+More recently, deep in the world of AI infrastructure; embeddings, vector search, retrieval-augmented generation. Building the systems that give AI tools like GitHub Copilot the ability to actually understand a codebase. It's the most interesting problem space I've ever worked in.
+
+## Other stuff
+
+Father to three awesome children. Youngest two are twins. All you parents of multiples know what I'm talking about. No, I don't need to say it.
+
+Husband to the best wife a man could ask for. See above.
+
+Used to perform ridiculous feats of endurance. Finished the [American Triple-T](https://americantriple-t.com/) three times. Finished countless other short/long distance events in between.
+
+[Raced Across America](https://www.raceacrossamerica.org/) in 6 days, 18 hours and 33 minutes with seven other lunatics to raise money for [Akron Children's Hospital](https://www.akronchildrens.org). Slept for a week.
+
+Decided a week of misery riding across the country wasn't enough, so I [raced 928 miles across the West](http://www.raceacrossthewest.org/) in 66 hours and 18 minutes with my good friend to raise money for [the LeBron James Family Foundation's Wheels for Education](http://www.lebronjamesfamilyfoundation.org/page/wheelsforeducation) program. Slept for a day or two before watching my NBA team win its first championship on my 39th birthday. Speaking of...
+
+Currently coming out of retirement to work towards qualification for the [Boston Marathon](https://www.baa.org/races/boston-marathon/) to honor a promise I made to my kids. Wish me luck!
+
+Born and raised in Northeast Ohio. Tortured by Cleveland sports as far back as I can remember. This space used to be occupied by the phrase "Please guys, just one before I die", but we got one. I don't know what that means for my life expectancy.
+
+Resident of the best kept secret in the South. Seriously, [this place is awesome](http://www.visitgreenvillesc.com/).
+
+Also, I like craft beer. [I like it a lot](https://untappd.com/user/terrhorn). [A lot a lot](https://liabilitybrewing.co/).
+
+## Hit me up
+
+[Resume](resume/index.html). [User Manual](user-manual.html). [Twitter](http://twitter.com/terrhorn). [GitHub](https://github.com/terrhorn). [LinkedIn](http://www.linkedin.com/in/terryhorner/). You're welcome to try guessing my Gmail address if you really must. Hint: it may or may not have something to do with my first and last name.
+
+## Peace ✌️
+
+---
+
+# Terry Horner : User Manual
+
+## Strengths
+
+Futuristic - Restorative - Learner - Achiever - Strategic
+
+These aren't made up. [Find your strengths](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx).
+
+## What are some honest, unfiltered things about you?
+
+- I come across as being pretty laid back and that's intentional, but I'm really an emotional being when it comes down to it. Chances are good you won't see much raw emotion from me unless I want you to see it.
+- I'm single threaded which makes context switching exhausting. On the flip side, when I'm focused on something, you know I'm focused on it and only it.
+- I sometimes have difficulty staying in the present because I enjoy thinking about what's ahead.
+- I love stories. One of my favorite things is experiencing a story for the first time.
+- I'm a jack of all trades, not because I can't master one, but because learning excites me.
+- I like to work, and when I'm not working I like to think about work. Unless I'm thinking about beer. If I'm drinking beer or thinking about beer, I'm only drinking beer and thinking about beer.
+- I hate disappointing people.
+- I often say yes when I should say no.
+- I sometimes trust too easily.
+- I'm not that great at self-care.
+- I change my mind, a lot, particularly when situations and/or information change.
+- I'm not afraid to be wrong and will admit when I am.
+- I need time to prepare for what I say before I'm going to say it.
+- I lead from the trenches.
+- I do what I say I'm going to do.
+
+## What drives you nuts?
+
+- Being forced to keep bad secrets.
+- People who don't make time for others.
+- People who criticize others publicly without first having a conversation with the person they're criticizing.
+- People who complain about problems but don't want to help fix them.
+- People who don't pay attention when being spoken to.
+- Perpetual tardiness.
+- Broken promises.
+- Wasting time.
+- Agenda-less meetings.
+- Bit rot.
+
+## What are your quirks?
+
+- I dislike being rushed.
+- I prefer time to digest information before making decisions.
+- I get anxious if I'm late to anything, even if it's only a minute or two.
+- I can be stubborn when I'm tired.
+- I enjoy shielding others from distractions.
+- I am helpful to a fault.
+- I like to laugh at my own stupidity.
+- I sometimes struggle to communicate my ideas.
+- I prefer not to sugarcoat.
+- I oddly enjoy firefighting.
+- I don't like the spotlight.
+- I am terrible at celebrating.
+- I don't like cheese, mushrooms, or anything that came from a pond/river/lake/ocean.
+- I like to purge things.
+
+## How can people earn an extra gold star with you?
+
+- By chipping in to help others without being asked.
+- By putting others before themselves.
+- By going out of their way to communicate effectively, even if it means over-communicating.
+- By asking questions. Lots of questions.
+- By getting shit done.
+- By updating documentation when they create/change a thing.
+
+## What qualities do you particularly value in people who work with you?
+
+- Empathy
+- Honesty
+- Selflessness
+- Humility
+- Dedication
+- Curiosity
+- Humor
+
+## What are some things that people might misunderstand about you that you should clarify?
+
+- Just because you don't see me take a position on a certain thing doesn't mean I don't have an opinion about that thing. It just means my opinion is weakly held or not yet fully formed.
+- You'll hear me say that I dislike meetings, and you'll probably hear it a lot. What that really means is I dislike meetings that don't add value. Either we make a meeting valuable or we get rid of the meeting.
+- I will often avoid getting in the weeds. I do this because I trust the people who are in the weeds to handle the details and surface what's important rather than getting in the weeds myself.
+
+## How do you coach people to do their best work and develop their talents?
+
+- By listening.
+- By establishing a relationship based on empathy and trust.
+- By showing them I give a damn about them personally.
+- By challenging them to continually step outside their comfort zone.
+- By having difficult conversations.
+- By holding them accountable.
+- By helping them be the best human they can be.
+
+## What's the best way to communicate with you?
+
+- Nuanced/difficult conversations
+    1. Face-to-face (in-person or video conference)
+    2. Audio (audio or phone conference)
+- Everything else
+    1. Slack
+    2. Text/Email
+
+## What's the best way to convince you to do something?
+
+- Have a compelling "why", and tell me a story about it. Convince me it's the most important thing we/I can be doing right now and give me the information to backup your thesis.
+
+## How do you like to give feedback?
+
+- Praise in public, criticize one-on-one in private.
+
+## How do you like to get feedback?
+
+- Immediately and directly, preferably face-to-face (in-person or video conference).
+
+---
+
+# TERRY HORNER
+**Staff Engineering Manager | Technical Leader | Infrastructure Expert**
+
+terry.horner@protonmail.com | linkedin.com/in/terryhorner | terrhorn.github.io | Greenville, South Carolina | Open to Remote
+
+---
+
+## PROFESSIONAL SUMMARY
+
+Engineering leader with 20+ years of experience building distributed systems and leading high-performing teams. Currently leading GitHub's Code Search platform serving 100M+ developers — the search infrastructure that powers both GitHub.com and GitHub Copilot. Founded the Code Search team from scratch and grew it to 15+ engineers. Expert in search/AI infrastructure, RAG systems, and large-scale ML platforms.
+
+---
+
+## CORE COMPETENCIES
+
+**Leadership:** Engineering Management • Team Scaling • Technical Strategy • Cross-functional Leadership • Machine Learning Infrastructure • Servant Leadership • Platform Engineering • Crisis Management<br>
+**Technical:** Semantic Search • Vector Systems • Embeddings & Retrieval-Augmented Generation (RAG) • Custom Search Engines • Distributed Systems • Hyperscale Architecture • AI Infrastructure • Programming Languages (Go, Rust, Python, JavaScript)<br>
+**Business:** Product Strategy • AI-Powered Developer Tools • Machine Learning Product Development • Startup Founding • Revenue Growth • Operational Excellence • Developer Experience
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+### **GITHUB** | *Remote* | **2018 – Present**
+
+**Staff Engineering Manager, Code Search** | *June 2021 – Present*
+- **Founded and scaled the team**: Built Code Search from a 1-person effort to a 15+ engineer globally distributed team, establishing it as a strategic GitHub priority
+- **Novel search infrastructure**: Led development of novel indexing and retrieval technology from scratch that now powers code search on GitHub.com and GitHub Copilot
+- **Delivered instant AI context at scale**: Led infrastructure strategy that reduced semantic indexing time from 5 minutes to under 60 seconds, enabling immediate codebase-aware AI assistance for millions of developers
+- **Owned infrastructure architecture**: Designed and managed provisioning, scaling, and deployment of search infrastructure supporting both traditional keyword search and semantic search systems
+- **Enabled distributed AI capabilities**: Led product strategy for VS Code local indexing and cloud-based semantic search, providing AI-powered workspace context across environments
+- **Directly responsible individual**: Drove cross-functional collaboration to integrate search platform with AI systems supporting next-generation developer experiences
+
+**Senior Engineering Manager, Code Search** | *September 2020 – June 2021*
+- Established Code Search as strategic GitHub priority, growing team from 3 to 12 engineers during critical foundation phase
+- Led architectural planning for migration from legacy Elasticsearch implementation to novel code-specific search engine
+
+**Senior Engineering Manager, Head of Storage Engineering** | *February 2020 – September 2020*
+- Managed GitHub's core storage infrastructure teams responsible for Database Infrastructure, Data Pipelines, Data Infrastructure, and Search Infrastructure
+- Oversaw storage systems supporting 250M+ repositories with 99.95% uptime SLA
+- **Company-wide Incident Commander**: Served as IC on a 24/7 on-call rotation for all of GitHub, coordinating cross-functional incident response across engineering — including DDoS attacks and critical infrastructure outages
+- Established follow-the-sun on-call rotations, created sustainable on-call procedures, and personally participated in hands-on incident response alongside the teams
+
+**Engineering Manager, Data Infrastructure** | *February 2018 – February 2020*
+- Built platform team supporting GitHub's analytics, machine learning, and business intelligence needs
+- Designed and implemented data pipelines processing terabytes of developer activity data daily
+- Established data governance frameworks and privacy compliance for enterprise customers
+
+### **KEEN** | *Remote* | **2014 – 2018**
+
+**VP Engineering** | *November 2016 – February 2018*
+- Led engineering organization of 15+ engineers across platform, data science, and product teams
+- Drove technical strategy for real-time analytics infrastructure and customer-facing APIs
+- Managed engineering budget and technical roadmap
+- Established engineering culture emphasizing accountability, continuous learning, and cross-functional collaboration
+- Successfully navigated team through acquisition, maintaining team cohesion and technical excellence
+
+**Software Engineer & Data Scientist** | *June 2014 – November 2016*
+- Built core analytics platform features and customer-facing dashboard interfaces
+- Contributed to open-source analytics tools and developer community engagement
+
+### **ENTREPRENEURIAL VENTURES** | *2003 – 2014*
+
+**Co-Founder & CTO, Multiple Successful Startups** | *Remote*
+- **Relify** (2012-2013): Co-founded and built machine learning-powered SaaS platform for recommendations-as-a-service, led company through Iron Yard accelerator program and seed funding round
+- **SendReceive** (2006-2012): Co-founded and developed email and text communications platform serving political and enterprise clients, bootstrapped to profitability
+- **BlueEye Systems** (2003-2012): Founded and led consulting firm to profitability, delivering custom software solutions for local and Fortune 500 clients
+- **Horner Networks** (2003-2011): Co-founded systems integration and security company, bootstrapped to profitability (still in operation)
+
+Founded and scaled multiple ventures to profitability without external funding, demonstrating strong business acumen alongside technical leadership. Led full product lifecycle including technical architecture, team building, customer acquisition, and sustainable business operations.
+
+### **EARLY CAREER & HIGH-PROFILE TECHNICAL ROLES** | *1996 – 2003*
+
+**Lead Developer, New Media Communications** | *1999 – 2001*
+- Architected and delivered mission-critical web platforms for high-stakes political campaigns
+- Led technical development for Bush for President (2000) and Bloomberg for Mayor (2001) campaigns
+- Built scalable web infrastructure for numerous national political organizations
+- Delivered complex projects under extreme time pressure and public scrutiny
+
+**Technical Consultant, E-merging Technologies Group** | *2001 – 2003*<br>
+**Developer/Server Administrator, Kent State University** | *1996 – 1999*
+
+---
+
+## EDUCATION
+
+**Bachelor of Business Administration, Computer Information Systems**<br>
+Kent State University | *1995 – 1999*
+
+---
+
+## ADDITIONAL EXPERIENCE
+
+**Mentor, The Iron Yard** | *2013 – 2016*<br>
+Mentored accelerator startups in business and technical excellence
+
+**CTO, ChartSpan Medical Technologies** | *2013 – 2014*
+
+---
+
+## NOTABLE ACHIEVEMENTS
+
+**Endurance Athletics & Goal Achievement**
+- Completed Race Across America (2,900+ miles) in 6 days, 18 hours, 33 minutes with 8-person team to raise money for Akron Children's Hospital
+- Completed Race Across the West (928 miles) in 66 hours, 18 minutes to raise money for the LeBron James Family Foundation
+- Finished American Triple-T (ultra-distance triathlon) three times, and Ironman 70.3 thirteen times
